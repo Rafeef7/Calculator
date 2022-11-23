@@ -1,0 +1,11 @@
+def calculator(sign,arg1,arg2):
+   if sign=='+':
+    print(arg1+arg2)
+   elif sign=='-':
+    print(arg1-arg2)
+   elif sign=='*':
+    print(arg1*arg2)
+   else:
+    print(arg1/arg2)
+
+calculator('/',15,5)   
